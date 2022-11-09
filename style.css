@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre Franklin:ital,wght@1,200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap');
+
+html {
+  background-color: EFF5F5;
+  text-align: center;
+  padding: auto;
+  margin: auto;
+}
+
+h1 {
+  color: EB6440;
+  font-family: Libre Franklin;
+  line-height: normal;
+  }
+
+h2 {
+  color: EB6440;
+  font-family: Libre Franklin;
+  font-size: larger;
+  position: center;
+}
+
+p {
+  color: EB6440;
+  font-family: Libre Franklin;
+  font-size: larger;
+}
+
+.remove-bullet {
+  color: 3E6D9C;
+  text-decoration: none;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: FEF2BF;
+}
+
+.btn-blue {
+  background-color: #497174;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  font-family: Libre Franklin;
+  font-size: larger;
+  text-align: center;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  padding: auto;
+}
+
+.img-circle {
+  border-radius: 150px;
+  height: 300px;
+  width: 300px;
+  border: 0,5px solid black;
+}
+
+.card {
+  background-color: D6E4E5;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 5px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.remove-bullet i {
+  font-size: 50px;
+  position: center;
+  color: EB6440;
+}
+
+.remove-bullet li {
+  display: inline;
+}
+
+@media (max-width: 900px) {
+  .container {
+    width: 400px;
+  }
+}
